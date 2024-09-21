@@ -141,6 +141,7 @@ const todo = new Elysia()
     {
       body: t.Object({
         id: t.String(),
+        foo: t.Optional(t.String()),
       }),
     }
   )
